@@ -1,0 +1,2 @@
+add_lunch_combo cm_P70-eng
+add_lunch_combo cm_P70-userdebug
