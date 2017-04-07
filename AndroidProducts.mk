@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-$(LOCAL_DIR)/cm_P70.mk
+  $(LOCAL_DIR)/cm_P70.mk
