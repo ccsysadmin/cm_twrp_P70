@@ -14,12 +14,12 @@
 # limitations under the License.
 #
 
-# Inherit from our custom product configuration
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/cm/config/common.mk)
-
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full.mk
+
+# Inherit from our custom product configuration
+$(call inherit-product, vendor/cm/config/common.mk)
 
 # Copy additional files
 PRODUCT_COPY_FILES += device/lenovo/P70/recovery.fstab:recovery/root/etc/twrp.fstab \

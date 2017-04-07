@@ -15,8 +15,8 @@
 #
 
 LOCAL_PATH := device/lenovo/P70
--include vendor/lenovo/P70/BoardConfigVendor.mk
-TARGET_PROVIDES_INIT_RC := true
+#-include vendor/lenovo/P70/BoardConfigVendor.mk
+#TARGET_PROVIDES_INIT_RC := true
 
 # Architecture
 TARGET_ARCH := arm64
