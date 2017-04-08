@@ -5,7 +5,7 @@ Add to `.repo/local_manifests/P70.xml`:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/lenovo/P70" name="ccsysadmin/cm_twrp_P70" remote="github" revision="cm-12.1" />
+	<project path="device/lenovo/P70" name="ccsysadmin/cm_twrp_P70" remote="github" revision="cm-12.1" groups="pdk" />
 </manifest>
 ```
 
@@ -16,5 +16,5 @@ To build:
 ```sh
 . build/envsetup.sh
 lunch cm_p70-userdebug
-mka -i -j 9 recoveryimage
+make -i -j 5 recoveryimage
 ```
