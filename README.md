@@ -15,6 +15,6 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch cm_p70-userdebug
+lunch cm_P70-userdebug
 make -i -j 5 recoveryimage
 ```
