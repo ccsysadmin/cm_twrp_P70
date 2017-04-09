@@ -1,7 +1,7 @@
 # Release name
 PRODUCT_RELEASE_NAME := P70-A
 
-# Inherit some common CM stuff.
+# Inherit some common open-source stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration

@@ -15,7 +15,7 @@
 /seccfg 			emmc 	/dev/block/mmcblk0p5 								flags=display="Seccfg";backup=1
 /secro 				emmc 	/dev/block/mmcblk0p9 								flags=display="Secro";backup=1
 /system 			ext4 	/dev/block/mmcblk0p16 								flags=display="System";backup=1;wipeingui
-/system_image 		emmc 	/dev/block/mmcblk0p16 								flags=display="System";backup=1;flashimg=1
+/system_image 		emmc 	/dev/block/mmcblk0p16 								flags=display="System Image";backup=1;flashimg=1
 /tee1 				emmc 	/dev/block/mmcblk0p13 								flags=display="Tee";backup=1
 /tee2 				emmc 	/dev/block/mmcblk0p14 								flags=subpartitionof=/tee1;backup=1
 /data 				ext4 	/dev/block/mmcblk0p18 								flags=backup=1;wipeingui;wipeduringfactoryreset
